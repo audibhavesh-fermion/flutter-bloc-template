@@ -1,0 +1,1 @@
+ C:\\Bhavesh\\OpenSource\\OpenSource\\FlutterTemplateProject\\flutter_template_project\\.dart_tool\\flutter_build\\bc821efefc04133d43e0aed3ba1da93c\\native_assets.yaml: 
