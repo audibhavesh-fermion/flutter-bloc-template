@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
 @immutable
-abstract class AppEvent {
+class AppEvent {
   List<Object> get props => [];
 }

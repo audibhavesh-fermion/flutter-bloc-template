@@ -16,8 +16,8 @@
 15-->C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\android\app\src\debug\AndroidManifest.xml:6:5-66
 15-->C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\android\app\src\debug\AndroidManifest.xml:6:22-64
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\2c88015c662e5d1148697b7d8f8942f8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
-16-->[com.google.firebase:firebase-installations:17.2.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\2c88015c662e5d1148697b7d8f8942f8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:7:22-76
+16-->[:connectivity_plus] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+16-->[:connectivity_plus] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
 17
 18    <application
 19        android:name="android.app.Application"

@@ -38,6 +38,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "awesome_dio_interceptor",
+      "rootUri": "file:///C:/Users/Bhavesh%20Audichya/AppData/Local/Pub/Cache/hosted/pub.dev/awesome_dio_interceptor-1.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "bloc",
       "rootUri": "file:///C:/Users/Bhavesh%20Audichya/AppData/Local/Pub/Cache/hosted/pub.dev/bloc-8.1.2",
       "packageUri": "lib/",
@@ -132,6 +138,12 @@
       "rootUri": "file:///C:/Users/Bhavesh%20Audichya/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.18.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "colorize",
+      "rootUri": "file:///C:/Users/Bhavesh%20Audichya/AppData/Local/Pub/Cache/hosted/pub.dev/colorize-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "connectivity_plus",
@@ -237,7 +249,7 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///C:/Bhavesh/OpenSource/OpenSource/FlutterTemplateProject/flutter_template_project/.fvm/flutter_sdk/packages/flutter",
+      "rootUri": "file:///C:/Bhavesh/Software/flutter_sdk/versions/3.16.9/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -267,13 +279,13 @@
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///C:/Bhavesh/OpenSource/OpenSource/FlutterTemplateProject/flutter_template_project/.fvm/flutter_sdk/packages/flutter_test",
+      "rootUri": "file:///C:/Bhavesh/Software/flutter_sdk/versions/3.16.9/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "flutter_web_plugins",
-      "rootUri": "file:///C:/Bhavesh/OpenSource/OpenSource/FlutterTemplateProject/flutter_template_project/.fvm/flutter_sdk/packages/flutter_web_plugins",
+      "rootUri": "file:///C:/Bhavesh/Software/flutter_sdk/versions/3.16.9/packages/flutter_web_plugins",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -537,7 +549,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///C:/Bhavesh/OpenSource/OpenSource/FlutterTemplateProject/flutter_template_project/.fvm/flutter_sdk/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///C:/Bhavesh/Software/flutter_sdk/versions/3.16.9/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
@@ -680,7 +692,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-03-12T11:32:57.112351Z",
+  "generated": "2024-04-04T08:38:25.281770Z",
   "generator": "pub",
   "generatorVersion": "3.2.6"
 }

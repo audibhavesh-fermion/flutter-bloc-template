@@ -1,11 +1,7 @@
-import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_template_project/core/bloc/app_event.dart';
 
 @immutable
-abstract class AppState {
+class AppState {
   List<Object> get props => [];
 }
 
@@ -15,8 +11,7 @@ class LoadingState extends AppState {
   LoadingState({required this.isLoading});
 }
 
-class SuccessState extends AppState {
-}
+class SuccessState extends AppState {}
 
 class ErrorState extends AppState {}
 
