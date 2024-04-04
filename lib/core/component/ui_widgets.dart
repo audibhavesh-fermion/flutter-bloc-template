@@ -59,7 +59,7 @@ class UiWidgets {
     );
   }
 
-  static Widget getRoundButton(String text,
+  static Widget getRoundButton(BuildContext context, String text,
       {double? width,
       double? height,
       double? padding,
@@ -68,7 +68,7 @@ class UiWidgets {
     return Padding(
       padding: EdgeInsets.all(padding ?? 8.0),
       child: ElevatedButton(
-          style: UIWidgetStyle.buttonStyle(AppColors.primaryColor,
+          style: UIWidgetStyle.buttonStyle(Theme.of(context).primaryColor,
               Size(width ?? 50, height ?? 50), radius ?? 10),
           onPressed: onPressed ?? () {},
           child: Text(text)),

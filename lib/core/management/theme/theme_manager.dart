@@ -1,19 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_template_project/res/app_colors.dart';
+import 'package:flutter_template_project/core/management/theme/color_schemes.dart';
 
 enum AppTheme { Light, Dark }
 
 class ThemeManager {
-  static AppTheme theme = AppTheme.Light;
+  static ThemeMode mode = ThemeMode.system;
 
   static final appThemeData = {
-    AppTheme.Light: ThemeData(
-        scaffoldBackgroundColor: AppColors.backgroundColor,
-        primarySwatch: AppColors.primaryColorSwatch,
-        textTheme: TextTheme(bodyLarge: TextStyle(color: AppColors.textColor))),
-    AppTheme.Dark: ThemeData(
-        scaffoldBackgroundColor: AppColors.backgroundColor,
-        primarySwatch: AppColors.primaryColorSwatch,
-        textTheme: TextTheme(bodyLarge: TextStyle(color: AppColors.textColor)))
+    AppTheme.Light:
+        ThemeData(useMaterial3: true, colorScheme: lightColorScheme),
+    AppTheme.Dark: ThemeData(useMaterial3: true, colorScheme: darkColorScheme)
   };
 }

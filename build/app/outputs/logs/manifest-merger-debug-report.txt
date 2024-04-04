@@ -46,6 +46,7 @@ MERGED from C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_temp
 MERGED from [:firebase_crashlytics] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\firebase_crashlytics\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:firebase_core] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-17:12
 MERGED from [:path_provider_android] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:connectivity_plus] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\7d01be9ab6250fe45955b210dc3d1431\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\ae3977b86ab634c370a6be8522d9571f\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:15:1-35:12
 MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\2c88015c662e5d1148697b7d8f8942f8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:2:1-24:12
@@ -108,6 +109,8 @@ MERGED from [:firebase_core] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplatePro
 MERGED from [:firebase_core] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:path_provider_android] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:connectivity_plus] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\7d01be9ab6250fe45955b210dc3d1431\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\7d01be9ab6250fe45955b210dc3d1431\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\ae3977b86ab634c370a6be8522d9571f\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:18:5-44
@@ -232,6 +235,16 @@ ADDED from [:firebase_core] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProj
 		ADDED from [:firebase_core] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
 	android:name
 		ADDED from [:firebase_core] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:connectivity_plus] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\2c88015c662e5d1148697b7d8f8942f8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\2c88015c662e5d1148697b7d8f8942f8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\2c53f15285aa65a801130b6392eb6d8b\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\2c53f15285aa65a801130b6392eb6d8b\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\17ed70ac1f92bd04a059ac6b8b9556ea\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\17ed70ac1f92bd04a059ac6b8b9556ea\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:connectivity_plus] C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project\build\connectivity_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-76
 meta-data#com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar
 ADDED from [com.google.firebase:firebase-crashlytics:18.6.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\7d01be9ab6250fe45955b210dc3d1431\transformed\jetified-firebase-crashlytics-18.6.0\AndroidManifest.xml:15:13-17:85
 	android:value
@@ -258,14 +271,6 @@ ADDED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\Bhavesh Audich
 		ADDED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\ae3977b86ab634c370a6be8522d9571f\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:31:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-sessions:1.2.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\ae3977b86ab634c370a6be8522d9571f\transformed\jetified-firebase-sessions-1.2.0\AndroidManifest.xml:30:17-117
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\2c88015c662e5d1148697b7d8f8942f8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\2c53f15285aa65a801130b6392eb6d8b\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\2c53f15285aa65a801130b6392eb6d8b\transformed\jetified-transport-backend-cct-3.1.9\AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\17ed70ac1f92bd04a059ac6b8b9556ea\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.datatransport:transport-runtime:3.1.9] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\17ed70ac1f92bd04a059ac6b8b9556ea\transformed\jetified-transport-runtime-3.1.9\AndroidManifest.xml:22:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\2c88015c662e5d1148697b7d8f8942f8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:7:22-76
 meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
 ADDED from [com.google.firebase:firebase-installations:17.2.0] C:\Users\Bhavesh Audichya\.gradle\caches\transforms-3\2c88015c662e5d1148697b7d8f8942f8\transformed\jetified-firebase-installations-17.2.0\AndroidManifest.xml:15:13-17:85
 	android:value

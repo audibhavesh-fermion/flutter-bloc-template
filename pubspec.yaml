@@ -48,6 +48,7 @@ dependencies:
   json_annotation: ^4.8.1
   responsive_sizer: ^3.2.0
   connectivity_plus: ^5.0.2
+  awesome_dio_interceptor: ^1.0.0
 
 
 dev_dependencies:
