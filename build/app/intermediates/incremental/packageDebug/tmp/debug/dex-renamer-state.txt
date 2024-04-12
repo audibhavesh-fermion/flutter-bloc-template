@@ -1,4 +1,0 @@
-#Thu Apr 04 11:23:40 IST 2024
-base.0=C\:\\Bhavesh\\OpenSource\\OpenSource\\FlutterTemplateProject\\flutter_template_project\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
