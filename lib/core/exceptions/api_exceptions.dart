@@ -5,3 +5,4 @@ class ApiException implements Exception {
 
   ApiException({this.message, this.statusCode, this.extra});
 }
+ 
