@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_template_project/core/management/theme/theme_manager.dart';
+import 'package:flutter_bloc_template_project/core/management/theme/theme_manager.dart';
 
 class AppColors {
   //Hex Colors

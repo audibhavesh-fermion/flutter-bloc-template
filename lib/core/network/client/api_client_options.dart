@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_template_project/core/network/constants/network_constants.dart';
+import 'package:flutter_bloc_template_project/core/network/constants/network_constants.dart';
 
 class ApiClientOptions extends BaseOptions {
   ApiClientOptions() {

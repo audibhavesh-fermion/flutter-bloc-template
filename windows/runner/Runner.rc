@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.fermion.flutter.template" "\0"
-            VALUE "FileDescription", "flutter_template_project" "\0"
+            VALUE "FileDescription", "flutter_bloc_template_project" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "flutter_template_project" "\0"
+            VALUE "InternalName", "flutter_bloc_template_project" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2024 com.fermion.flutter.template. All rights reserved." "\0"
-            VALUE "OriginalFilename", "flutter_template_project.exe" "\0"
-            VALUE "ProductName", "flutter_template_project" "\0"
+            VALUE "OriginalFilename", "flutter_bloc_template_project.exe" "\0"
+            VALUE "ProductName", "flutter_bloc_template_project" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

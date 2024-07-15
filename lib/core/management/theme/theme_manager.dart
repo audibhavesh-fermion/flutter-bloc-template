@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_template_project/core/management/theme/color_schemes.dart';
+import 'package:flutter_bloc_template_project/core/management/theme/color_schemes.dart';
 
 enum AppTheme { Light, Dark }
 

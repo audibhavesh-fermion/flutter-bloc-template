@@ -1,7 +1,7 @@
-import 'package:flutter_template_project/core/loader/load_modules.dart';
-import 'package:flutter_template_project/core/management/theme/bloc/theme_bloc.dart';
-import 'package:flutter_template_project/core/management/theme/theme_manager.dart';
-import 'package:flutter_template_project/routes/route_provider.dart';
+import 'package:flutter_bloc_template_project/core/loader/load_modules.dart';
+import 'package:flutter_bloc_template_project/core/management/theme/bloc/theme_bloc.dart';
+import 'package:flutter_bloc_template_project/core/management/theme/theme_manager.dart';
+import 'package:flutter_bloc_template_project/routes/route_provider.dart';
 
 class LauncherScreen extends StatefulWidget {
   const LauncherScreen({super.key});
@@ -22,7 +22,6 @@ class _LauncherScreenState extends State<LauncherScreen> {
 
   Widget getLauncherScreen() {
     return BlocBuilder<ThemeBloc, AppState>(builder: (context, state) {
-      print("Theme Manager ${ThemeManager.mode.name}");
       return ResponsiveSizer(builder: (p0, p1, p2) {
         return MaterialApp.router(
           themeMode: ThemeManager.mode,

@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_template_project/core/bloc/app_event.dart';
-import 'package:flutter_template_project/core/bloc/app_state.dart';
-import 'package:flutter_template_project/core/management/theme/bloc/theme_event.dart';
-import 'package:flutter_template_project/core/management/theme/bloc/theme_state.dart';
-import 'package:flutter_template_project/core/management/theme/theme_manager.dart';
+import 'package:flutter_bloc_template_project/core/bloc/app_event.dart';
+import 'package:flutter_bloc_template_project/core/bloc/app_state.dart';
+import 'package:flutter_bloc_template_project/core/management/theme/bloc/theme_event.dart';
+import 'package:flutter_bloc_template_project/core/management/theme/bloc/theme_state.dart';
+import 'package:flutter_bloc_template_project/core/management/theme/theme_manager.dart';
 
 class ThemeBloc extends Bloc<AppEvent, AppState> {
   ThemeBloc() : super(ThemeState()) {

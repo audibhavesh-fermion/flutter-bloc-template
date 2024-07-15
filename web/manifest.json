@@ -1,6 +1,6 @@
 {
-    "name": "flutter_template_project",
-    "short_name": "flutter_template_project",
+    "name": "flutter_bloc_template_project",
+    "short_name": "flutter_bloc_template_project",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

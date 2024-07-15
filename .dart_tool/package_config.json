@@ -686,13 +686,13 @@
       "languageVersion": "2.19"
     },
     {
-      "name": "flutter_template_project",
+      "name": "flutter_bloc_template_project",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-04-26T07:05:49.343658Z",
+  "generated": "2024-07-10T07:24:21.741588Z",
   "generator": "pub",
   "generatorVersion": "3.2.6"
 }

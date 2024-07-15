@@ -1,4 +1,4 @@
-# flutter_template_project
+# flutter_bloc_template_project
 
 A new Flutter project.
 

@@ -1,7 +1,7 @@
-import 'package:flutter_template_project/core/constants/app_constants.dart';
-import 'package:flutter_template_project/core/exceptions/app_exception.dart';
-import 'package:flutter_template_project/core/loader/load_modules.dart';
-import 'package:flutter_template_project/core/models/local_db_response.dart';
+import 'package:flutter_bloc_template_project/core/constants/app_constants.dart';
+import 'package:flutter_bloc_template_project/core/exceptions/app_exception.dart';
+import 'package:flutter_bloc_template_project/core/loader/load_modules.dart';
+import 'package:flutter_bloc_template_project/core/models/local_db_response.dart';
 import 'package:hive/hive.dart';
 import 'package:logger/logger.dart';
 

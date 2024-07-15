@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=C:\Bhavesh\Software\flutter_sdk\versions\3.16.9"
-export "FLUTTER_APPLICATION_PATH=C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_template_project"
+export "FLUTTER_APPLICATION_PATH=C:\Bhavesh\OpenSource\OpenSource\FlutterTemplateProject\flutter_bloc_template_project"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_TARGET=lib\main.dart"
 export "FLUTTER_BUILD_DIR=build"

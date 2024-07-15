@@ -1,10 +1,10 @@
 import 'package:awesome_dio_interceptor/awesome_dio_interceptor.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_template_project/core/exceptions/api_exceptions.dart';
-import 'package:flutter_template_project/core/network/client/api_client_options.dart';
-import 'package:flutter_template_project/core/network/constants/network_constants.dart';
-import 'package:flutter_template_project/core/network/constants/token_handler.dart';
+import 'package:flutter_bloc_template_project/core/exceptions/api_exceptions.dart';
+import 'package:flutter_bloc_template_project/core/network/client/api_client_options.dart';
+import 'package:flutter_bloc_template_project/core/network/constants/network_constants.dart';
+import 'package:flutter_bloc_template_project/core/network/constants/token_handler.dart';
 
 class ApiClient {
   ApiClient._provideInstance();
@@ -36,14 +36,16 @@ class ApiClient {
 
   Future<dynamic> postWithoutAuthToken(
       Map<dynamic, dynamic> request, String path,
-      {String newBaseUrl = ""}) async {
+      {String newBaseUrl = "",
+      Map<String, dynamic> queryParam = const {}}) async {
     var url = path;
     if (newBaseUrl.isNotEmpty) {
       url = _combineBaseUrl(NetworkConstants.baseUrl, newBaseUrl);
     }
 
     try {
-      var response = await dio.post(url, data: request);
+      var response =
+          await dio.post(url, data: request, queryParameters: queryParam);
       return checkAndReturnResponse(response);
     } on DioException catch (e) {
       throw ApiException(
@@ -56,7 +58,8 @@ class ApiClient {
   }
 
   Future<Response> post(Map<dynamic, dynamic> request, String path,
-      {String newBaseUrl = ""}) async {
+      {String newBaseUrl = "",
+      Map<String, dynamic> queryParam = const {}}) async {
     var url = path;
     if (newBaseUrl.isNotEmpty) {
       url = _combineBaseUrl(NetworkConstants.baseUrl, newBaseUrl);
@@ -65,6 +68,55 @@ class ApiClient {
     try {
       var response = await dio.post(url,
           data: request,
+          queryParameters: queryParam,
+          options: Options(headers: {
+            "Authorization": "Bearer ${TokenHandler.accessToken}"
+          }));
+      return checkAndReturnResponse(response);
+    } on DioException catch (e) {
+      throw ApiException(
+          message: e.response?.statusMessage,
+          statusCode: e.response?.statusCode,
+          extra: e.response?.extra);
+    } catch (e, stacktrace) {
+      rethrow;
+    }
+  }
+
+  Future<Response> get(Map<dynamic, dynamic> request, String path,
+      {String newBaseUrl = "",
+      Map<String, dynamic> queryParam = const {}}) async {
+    var url = path;
+    if (newBaseUrl.isNotEmpty) {
+      url = _combineBaseUrl(NetworkConstants.baseUrl, newBaseUrl);
+    }
+
+    try {
+      var response =
+          await dio.get(url, data: request, queryParameters: queryParam);
+      return checkAndReturnResponse(response);
+    } on DioException catch (e) {
+      throw ApiException(
+          message: e.response?.statusMessage,
+          statusCode: e.response?.statusCode,
+          extra: e.response?.extra);
+    } catch (e, stacktrace) {
+      rethrow;
+    }
+  }
+
+  Future<Response> getWithAuthToken(Map<dynamic, dynamic> request, String path,
+      {String newBaseUrl = "",
+      Map<String, dynamic> queryParam = const {}}) async {
+    var url = path;
+    if (newBaseUrl.isNotEmpty) {
+      url = _combineBaseUrl(NetworkConstants.baseUrl, newBaseUrl);
+    }
+
+    try {
+      var response = await dio.get(url,
+          data: request,
+          queryParameters: queryParam,
           options: Options(headers: {
             "Authorization": "Bearer ${TokenHandler.accessToken}"
           }));
@@ -80,7 +132,8 @@ class ApiClient {
   }
 
   Future<Response> postMultipart(FormData formData, String path,
-      {String newBaseUrl = ""}) async {
+      {String newBaseUrl = "",
+      Map<String, dynamic> queryParam = const {}}) async {
     var url = path;
     if (newBaseUrl.isNotEmpty) {
       url = _combineBaseUrl(NetworkConstants.baseUrl, newBaseUrl);
@@ -89,6 +142,7 @@ class ApiClient {
     try {
       var response = await dio.post(url,
           data: formData,
+          queryParameters: queryParam,
           options: Options(headers: {
             "Authorization": "Bearer ${TokenHandler.accessToken}"
           }));

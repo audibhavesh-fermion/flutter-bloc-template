@@ -1,7 +1,7 @@
-import 'package:flutter_template_project/core/loader/load_modules.dart';
-import 'package:flutter_template_project/core/management/theme/bloc/theme_bloc.dart';
-import 'package:flutter_template_project/core/management/theme/bloc/theme_event.dart';
-import 'package:flutter_template_project/core/management/theme/theme_manager.dart';
+import 'package:flutter_bloc_template_project/core/loader/load_modules.dart';
+import 'package:flutter_bloc_template_project/core/management/theme/bloc/theme_bloc.dart';
+import 'package:flutter_bloc_template_project/core/management/theme/bloc/theme_event.dart';
+import 'package:flutter_bloc_template_project/core/management/theme/theme_manager.dart';
 
 import 'bloc/home_bloc.dart';
 
